@@ -12,6 +12,8 @@ int main(){
 	//计算找零判定 
 	if(bill >= price){
 		printf("应该找您：%d\n",bill - price);
+	}else{
+		printf("您的钱不够\n");
 	}
 return 0;
 } 
